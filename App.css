@@ -1,18 +1,19 @@
 .img-container {
   margin: 10px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 8px;
   text-align: center;
 }
 .img-container img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 .img-container legend {
   margin-top: 5px;
   font-size: 16px;
   font-weight: bold;
+  color: #e63002;
 }
 .header {
   text-align: center;
@@ -34,8 +35,8 @@ body {
 }
 @media (max-width: 576px) {
   .navbar-collapse {
-    background-color: #f8f9fa;
-    border-top: 1px solid #dee2e6;
+    background-color: #000000;
+    border-top: 1px solid #e60202;
   }
   .navbar-nav {
     padding-bottom: 15px;
