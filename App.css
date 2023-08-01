@@ -1,38 +1,73 @@
-.img-container {
-  margin: 10px;
-  padding: 10px;
-  border-radius: 8px;
-  text-align: center;
+/* Base CSS */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-.img-container img {
-  max-width: 50%;
-  height: auto;
-}
-.img-container legend {
-  margin-top: 5px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #e63002;
-}
-.header {
-  text-align: center;
-}
-.navbar {
-  margin-bottom: 20px;
-  color: #000000;
-}
-.navbar-brand {
-  font-size: 24px;
-}
+
 body {
   background-image: url("https://64.media.tumblr.com/b9476386e023be78427f2affc37a0350/tumblr_pc6ibfrD5i1uruo10o1_500.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+/* Assuming the fieldset is inside a container with class 'fieldset-container' */
+.fieldset-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.fieldset-container fieldset {
+  flex: 1 0 calc(33.33% - 20px); /* Adjust the flex-basis value accordingly */
+  margin: 10px;
+  padding: 0; /* Remove unnecessary padding */
+  border: 1px solid #f00;
+  text-align: center;
+  max-height: 300px; /* Set a maximum height for the fieldset */
+  overflow: hidden; /* Hide content that exceeds the maximum height */
+}
+
+.img-container {
+  height: 100%;
+  box-sizing: border-box; /* Include padding and border in the height calculation */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: 100%; /* Ensure all images have the same height */
+  object-fit: contain; /* Maintain aspect ratio without stretching */
+}
+
+.img-container legend {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #e63002; /* Red color for legends */
+}
+
+.header {
+  text-align: center;
+}
+
 .navbar {
+  margin-bottom: 20px;
+  color: #e63002; /* Red text color for navbar */
   background-color: #000000;
 }
+
+.navbar-brand {
+  font-size: 24px;
+  color: #e63002; /* Red text color for navbar-brand */
+}
+
+/* Media Queries */
+/* For small devices (up to 576px) */
 @media (max-width: 576px) {
   .navbar-collapse {
     background-color: #000000;
@@ -44,19 +79,36 @@ body {
   .navbar-nav .nav-item {
     margin-bottom: 10px;
   }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  .img-container {
-    flex-basis: 50%;
+
+  .fieldset-container fieldset {
+    flex-basis: calc(50% - 20px);
   }
 }
-@media (min-width: 769px) and (max-width: 991px) {
-  .img-container {
-    flex-basis: 33.33%;
+
+/* For medium-sized devices (tablets, landscape phones) */
+@media (min-width: 577px) and (max-width: 991px) {
+  .fieldset-container fieldset {
+    flex-basis: calc(33.33% - 20px);
   }
 }
+
+/* For large devices (desktops, laptops) */
 @media (min-width: 992px) {
-  .img-container {
-    flex-basis: 25%;
+  .fieldset-container fieldset {
+    flex-basis: calc(25% - 20px);
+  }
+}
+
+/* For extra-large devices (large desktops) */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .fieldset-container fieldset {
+    flex-basis: calc(20% - 20px);
+  }
+}
+
+/* For 4K and larger displays */
+@media (min-width: 1440px) {
+  .fieldset-container fieldset {
+    flex-basis: calc(16.66% - 20px);
   }
 }
