@@ -6,7 +6,6 @@ html, body {
 }
 
 body {
-  background-image: url("https://64.media.tumblr.com/b9476386e023be78427f2affc37a0350/tumblr_pc6ibfrD5i1uruo10o1_500.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -57,13 +56,21 @@ body {
 
 .navbar {
   margin-bottom: 20px;
-  color: #e63002; /* Red text color for navbar */
-  background-color: #000000;
+  color: rgba(230, 48, 2, 0.79) !important; /* Red text color (with transparency) for navbar */
+  background-color: rgba(53, 3, 3, 0.259) !important; /* Silver background color (with transparency) for navbar */
 }
 
 .navbar-brand {
   font-size: 24px;
-  color: #e63002; /* Red text color for navbar-brand */
+  color: rgba(230, 48, 2, 1) !important; /* Red text color for navbar-brand */
+}
+.navbar-nav .nav-link {
+  color: rgba(230, 48, 2, 1) !important; /* Red text color for links inside the navbar */
+}
+
+/* Target the dropdown items inside the navbar */
+.dropdown-menu .dropdown-item {
+  color: rgba(230, 48, 2, 1) !important; /* Red text color for dropdown items inside the navbar */
 }
 
 /* Media Queries */
