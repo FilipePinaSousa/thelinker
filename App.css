@@ -67,11 +67,59 @@ body {
 .navbar-nav .nav-link {
   color: rgba(230, 48, 2, 1) !important; /* Red text color for links inside the navbar */
 }
-
+/* Target the dropdown items inside the navbar */
 /* Target the dropdown items inside the navbar */
 .dropdown-menu .dropdown-item {
   color: rgba(230, 48, 2, 1) !important; /* Red text color for dropdown items inside the navbar */
+  background-color: rgba(255, 4, 0, 0.332) !important; /* Red background color for the dropdown items */
+
+  /* Remove the default button styles */
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: none !important; /* Remove the border */
 }
+
+/* On hover, make the background color slightly darker */
+.dropdown-menu .dropdown-item:hover {
+  background-color: rgba(255, 4, 0, 0.5) !important;
+}
+
+
+/* On hover, make the background color slightly darker */
+.dropdown-menu .dropdown-item:hover {
+  background-color: rgba(255, 4, 0, 0.5) !important;
+}
+
+/* Style the dropdown toggle button */
+.dropdown .dropdown-toggle {
+  color: rgba(230, 48, 2, 1) !important; /* Red text color for the dropdown toggle button */
+  background-color: rgba(255, 4, 0, 0.332) !important; /* Red background color for the dropdown toggle button */
+  border: none !important; /* Remove the border */
+  box-shadow: none !important; /* Remove the box-shadow */
+  outline: none !important; /* Remove the outline on focus */
+  padding: 0.5rem 1rem; /* Add padding to the button for better appearance */
+  transition: background-color 0.2s ease, color 0.2s ease; /* Add a smooth transition effect */
+}
+
+/* On hover, make the background color slightly darker */
+/* On hover, make the background color slightly darker for the dropdown toggle button */
+.dropdown .dropdown-toggle:hover {
+  background-color: rgba(255, 4, 0, 0.5) !important;
+}
+
+/* On hover, change the background color for the dropdown items */
+.dropdown-menu .dropdown-item:hover {
+  background-color: rgba(230, 48, 2, 0.7) !important; /* Red background color for the dropdown items on hover */
+}
+
 
 /* Media Queries */
 /* For small devices (up to 576px) */
