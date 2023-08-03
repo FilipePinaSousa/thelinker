@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="App.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/8f6d4e20a8.js" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-      var infolinks_pid = 3401845;
-      var infolinks_wsid = 0;
-    </script>
-    <!-- Check if "/dist/output.css" is a valid path and file exists -->
-    <!-- <link href="/dist/output.css" rel="stylesheet"> -->
 
-    <title>TheChainofLinks:android</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="App.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8f6d4e20a8.js" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    var infolinks_pid = 3401845;
+    var infolinks_wsid = 0;
+  </script>
+  <link href="/dist/output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta name="shrtfly-verification" content="02a4922cba91d4b3d3314917d4aeb280" />
+
+  <title>TheChainofLinks:android</title>
+
+  <style>
+    body {
+      background-image: url("https://media1.giphy.com/media/jsrEC3RoSTEkijz85J/giphy.gif?cid=790b76111mjzzebbundrd1wslf32l72yf48tj57rbhy8449r&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  </style>
 </head>
-<style>
-  body {
-    background-image: url("https://media1.giphy.com/media/jsrEC3RoSTEkijz85J/giphy.gif?cid=790b76111mjzzebbundrd1wslf32l72yf48tj57rbhy8449r&ep=v1_gifs_search&rid=giphy.gif&ct=g");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-</style>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">
-      <img src="assets\logo.png" alt="Image description"  width="30" height="30">
+      <img src="assets\logo.png" alt="Image description" width="30" height="30">
     </a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
@@ -36,14 +39,13 @@
           <a class="nav-link" href="roms.html">Roms</a>
         </li>
         <li class="nav-item">
-          
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              emulators <!-- Corrected typo: 'emulaters' to 'emulators' -->
+              emulaters
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="androidemulaters.html">android emulators</a> <!-- Corrected typo: 'androidemulaters' to 'androidemulators' -->
-              <a class="dropdown-item" href="pcemulaters.html">pc emulators</a> <!-- Corrected typo: 'pcemulaters' to 'pcemulators' -->
+              <a class="dropdown-item" href="androidemulaters.html">android emulators</a>
+              <a class="dropdown-item" href="pcemulaters.html">pc emulators</a>
             </div>
           </div>
         </li>
@@ -55,24 +57,60 @@
         </li>
       </ul>
     </div>
-  </nav> 
+  </nav>
 
   <!-- Your content goes here -->
-  <fieldset class="img-container col-md-5 col-sm-6">
-    <a href="https://stfly.xyz/5Vhcg">
-      <img src="assets/virtual Nexus.png" alt="VN">
-    </a>
-  <legend> virtual nexus</legend>
-</fieldset>
-<fieldset class="img-container col-md-5 col-sm-6">
-  <a href="">
-    <img src="data:image/jpeg;base64,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g" alt="VN">
-  </a>
-<legend> 5 play</legend>
-</fieldset>
+  <div class="container-fluid">
+    <div class="fieldset-container">
+    <div class="row">
+      <fieldset class="img-container col-md-5 col-sm-6">
+        <a href="https://stfly.xyz/5Vhcg">
+          <img src="assets/virtual Nexus.png" alt="VN">
+        </a>
+        <legend>Virtual Nexus</legend>
+        <legend> Apk and PC </legend>
+      </fieldset>
+      <fieldset class="img-container col-md-5 col-sm-6">
+        <a href="https://stfly.xyz/5VkG5">
+          <img src="https://app.iosgods.com/img/logo.png" alt="VN">
+        </a>
+        
+        <legend> Apple </legend>
+      </fieldset>
+      <fieldset class="img-container col-md-5 col-sm-6">
+        <a href="https://stfly.xyz/5VkG5">
+          <img src="https://cdn.getmodsapk.com/uploads/5bb1dc30f3610ed9f9aec3061f32adc2.svg" alt="VN">
+        </a>
+        <legend> Mods </legend>
+      </fieldset>
+      <fieldset class="img-container col-md-5 col-sm-6">
+        <a href="https://5play.ru/">
+          <img src="assets/5play.png" alt="VN">
+        </a>
+        <legend>5 Play</legend>
+        <legend> Russia site but not scary,one of my favourites only comes with icon in game that popups but durates 5 sec </legend>
+      </fieldset>
+      <fieldset class="img-container col-md-5 col-sm-6">
+        <a href="https://stfly.xyz/5TZTr"> <!-- Corrected URL to match the second code -->
+          <img src="" alt="VN"> <!-- Corrected image path to match the second code -->
+        </a>
+        <legend>APK Mody</legend>
+        <legend>As a storage like Aptoide</legend>
+      </fieldset>
+      <fieldset class="img-container col-md-5 col-sm-6">
+        <a href="https://stfly.xyz/5VkPH"> <!-- Corrected URL to match the second code -->
+          <img src="" alt="VN"> <!-- Corrected image path to match the second code -->
+        </a>
+        <legend>steraming</legend>
+      </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- Include Bootstrap's JavaScript for dropdown functionality -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
