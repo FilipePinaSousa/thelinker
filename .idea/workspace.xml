@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="879a00c9-35be-47c6-b23a-c6d6bfb753af" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/thelinker/public/02a4922cba91d4b3d3314917d4aeb280.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/output.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/thelinker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/thelinker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Computer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Computer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android.html" beforeDir="false" afterPath="$PROJECT_DIR$/android.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidemulaters.html" beforeDir="false" afterPath="$PROJECT_DIR$/androidemulaters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canais.html" beforeDir="false" afterPath="$PROJECT_DIR$/canais.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinegames.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlinegames.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pcemulaters.html" beforeDir="false" afterPath="$PROJECT_DIR$/pcemulaters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roms.html" beforeDir="false" afterPath="$PROJECT_DIR$/roms.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +34,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ZiSbAl0kk76bOKZ6xeRO5JlPsS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,12 +48,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JavaScript Debug.canais.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/ervinhaverde/Documentos/GitHub/thelinker",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -54,6 +80,8 @@
       <option name="presentableId" value="Default" />
       <updated>1702903476382</updated>
       <workItem from="1702903477542" duration="101000" />
+      <workItem from="1702903675714" duration="39000" />
+      <workItem from="1702919540277" duration="1130000" />
     </task>
     <servers />
   </component>

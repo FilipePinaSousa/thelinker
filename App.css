@@ -77,13 +77,11 @@ body {
   display: block;
   width: 100%;
   padding: 0.5rem 1rem;
-  text-align: left;
   clear: both;
   font-weight: 400;
   color: #212529;
   text-align: inherit;
   white-space: nowrap;
-  background-color: transparent;
   border: none !important; /* Remove the border */
 }
 
